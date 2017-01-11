@@ -1,0 +1,27 @@
+
+
+#game {
+	-fx-background-image: url("../Images/gameBackGround.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: 100% 100%;
+}
+
+#home {
+	-fx-background-image: url("../Images/homeScreenBackGround.jpg");
+	-fx-background-position: center center;
+	-fx-background-size: 100% 100%;
+}
+#victory {
+	-fx-background-image: url("../Images/victoryBackGround.jpg");
+	
+	-fx-background-size: 100% 100%;
+	
+}
+#defeat {
+	-fx-background-image: url("../Images/defeatBackGround.jpg");
+	-fx-background-size: 100% 100%;
+}
+#instructions {
+	-fx-background-image: url("../Images/instructionsBackGround.jpg");
+	-fx-background-size: 100% 100%;
+}

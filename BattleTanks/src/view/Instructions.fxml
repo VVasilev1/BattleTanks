@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="instructions" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InstructionsController">
+   <children>
+      <TextArea editable="false" layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" text="BattleTanks is a turn based game where you and the computer take turns trying to kill each othrer's tanks. You start by placing your 5 tanks and then start bombing your oponents fields,  in orther to destroy his tanks. You may bomb only one field per turn. The first one to nuke all the enemy vehicles is the winner!" wrapText="true" />
+      <Button layoutX="274.0" layoutY="335.0" mnemonicParsing="false" onAction="#back" text="Back" />
+   </children>
+</AnchorPane>
